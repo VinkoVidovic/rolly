@@ -1,0 +1,30 @@
+{
+    "name": "vidovic/rolly",
+    "description": "Roles And Permissions Package for Laravel",
+    "authors": [
+        {
+            "name": "Vinko Vidovic",
+            "email": "vinko.vidovic95@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vidovic\\Rolly\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/database": ">=5.0",
+        "illuminate/support": ">=5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": ">=0.9.9",
+        "phpunit/phpunit": ">=4.1",
+        "orchestra/testbench": "~3.2"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vidovic\\Rolly\\Tests\\": "tests/"
+        }
+    }
+}
